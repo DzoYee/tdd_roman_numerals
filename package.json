@@ -1,0 +1,23 @@
+{
+  "name": "roman_numerals",
+  "version": "0.0.1",
+  "description": "TDD Practice",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -R spec -b test/roman_numerals.test.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.14.0"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "mocha": "2.5.3",
+    "require": "^2.4.20",
+    "superagent": "2.0.0"
+  }
+}
